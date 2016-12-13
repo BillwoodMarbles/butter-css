@@ -1,0 +1,13 @@
+{
+  "name": "buttercss",
+  "main": "dist/butter.css",
+  "description": "ButterCSS",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "keywords": []
+}

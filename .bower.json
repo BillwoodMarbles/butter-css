@@ -1,0 +1,24 @@
+{
+  "name": "buttercss",
+  "main": "dist/butter.css",
+  "description": "ButterCSS",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "keywords": [],
+  "homepage": "https://github.com/BillwoodMarbles/buttercss",
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "1baece242e9d7a0efb8ace6a287a7c7cb325522c"
+  },
+  "_source": "https://github.com/BillwoodMarbles/buttercss.git",
+  "_target": "^0.1.0",
+  "_originalSource": "buttercss"
+}
