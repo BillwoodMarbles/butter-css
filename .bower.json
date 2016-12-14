@@ -11,14 +11,14 @@
   ],
   "keywords": [],
   "homepage": "https://github.com/BillwoodMarbles/buttercss",
-  "version": "0.1.0",
-  "_release": "0.1.0",
+  "version": "0.1.1",
+  "_release": "0.1.1",
   "_resolution": {
     "type": "version",
-    "tag": "v0.1.0",
-    "commit": "1baece242e9d7a0efb8ace6a287a7c7cb325522c"
+    "tag": "v0.1.1",
+    "commit": "fd40b5d5f2614f984b7cee36178566fcf9709023"
   },
   "_source": "https://github.com/BillwoodMarbles/buttercss.git",
-  "_target": "^0.1.0",
+  "_target": "^0.1.1",
   "_originalSource": "buttercss"
 }
