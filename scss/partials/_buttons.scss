@@ -1,0 +1,11 @@
+// Buttons
+
+.button {
+  background-color: $button-default-background-color;
+  border-width:     $button-border-width;
+  color:            $button-font-color;
+  padding-bottom:   $button-padding-y;
+  padding-left:     $button-padding-x;
+  padding-right:    $button-padding-x;
+  padding-top:      $button-padding-y;
+}

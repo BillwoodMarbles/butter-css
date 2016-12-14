@@ -1,0 +1,33 @@
+// Variables
+
+// Screen Sizes
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+// Root
+$root-font-size: 16px;
+
+// Basic Colors
+$grey-darkest:  #1B1B1B;
+$grey-darker:   #333333;
+$grey-dark:     #505050;
+$grey:          #888888;
+$grey-light:    #C3C3C3;
+$grey-lighter:  #E1E1E1;
+$grey-lightest: #FCFCFC;
+
+// Branding
+$brand-color-primary:   blue;
+$brand-color-secondary: green;
+
+// Buttons
+$button-default-background-color:   $grey;
+$button-primary-background-color:   $brand-color-primary;
+$button-secondary-background-color: $brand-color-secondary;
+
+$button-border-width:     0;
+$button-font-color:       #fff;
+$button-font-size:        20px;
+$button-padding-x:        14px;
+$button-padding-y:        10px;
