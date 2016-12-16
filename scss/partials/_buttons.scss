@@ -1,11 +1,33 @@
 // Buttons
-
-.button {
-  background-color: $button-default-background-color;
-  border-width:     $button-border-width;
-  color:            $button-font-color;
-  padding-bottom:   $button-padding-y;
-  padding-left:     $button-padding-x;
-  padding-right:    $button-padding-x;
-  padding-top:      $button-padding-y;
+.bc-button {
+  background-color: $button-default-bg-color;
+  border-width: $button-border-width;
+  color: $button-font-color;
+  padding-bottom: $button-padding-y;
+  padding-left: $button-padding-x;
+  padding-right: $button-padding-x;
+  padding-top: $button-padding-y;
+  transition: all 0.5s ease;
+  &.bc-primary {
+    background-color: $button-primary-bg-color;
+    color: $button-font-color;
+    &:hover,
+    &:focus {
+      background-color: $button-primary-bg-color-hover;
+      color: $button-font-color;
+    }
+  }
+  &.bc-secondary {
+    background-color: $button-secondary-bg-color;
+    color: $button-font-color;
+    &:hover,
+    &:focus {
+      background-color: $button-secondary-bg-color-hover;
+      color: $button-font-color;
+    }
+  }
+  &.bc-warning {
+    background-color: $button-warning-bg-color;
+    color: $button-font-color;
+  }
 }

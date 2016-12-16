@@ -18,16 +18,48 @@ $grey-lighter:  #E1E1E1;
 $grey-lightest: #FCFCFC;
 
 // Branding
-$brand-color-primary:   blue;
-$brand-color-secondary: green;
+$brand-color-primary-1:   #523726;
+$brand-color-primary-2:   #93532d;
+$brand-color-primary-3:   #bf9660;
+$brand-color-secondary-1: #64ad9c;
+$brand-color-secondary-2: #7fbd8e;
+$brand-color-warning:     #8f2321;
+
+// Header
+$header-bg-color:     $grey-lightest;
+$header-border-color: $grey-light;
+$header-height:       75px;
+
+// Logo
+$logo-color:       $brand-color-primary-2;
+$logo-color-hover: $brand-color-primary-1;
+$logo-padding-x:   15px;
+$logo-padding-y:   0;
+
+// Navigation
+$main-nav-bg-color: $header-bg-color;
+$main-nav-height:   $header-height;
+
+$main-nav-link-bg-color:         $header-bg-color;
+$main-nav-link-bg-color-hover:   $brand-color-primary-2;
+$main-nav-link-font-color:       $grey-darker;
+$main-nav-link-font-color-hover: $grey-darker;
+$main-nav-link-font-size:        1em;
+$main-nav-link-padding-x:        15px;
+$main-nav-link-padding-y:        0;
+
+// Containers
 
 // Buttons
-$button-default-background-color:   $grey;
-$button-primary-background-color:   $brand-color-primary;
-$button-secondary-background-color: $brand-color-secondary;
+$button-default-bg-color:         $grey;
+$button-primary-bg-color:         $brand-color-primary-2;
+$button-primary-bg-color-hover:   $brand-color-primary-3;
+$button-secondary-bg-color:       $brand-color-secondary-1;
+$button-secondary-bg-color-hover: $brand-color-secondary-2;
+$button-warning-bg-color:         $brand-color-warning;
 
-$button-border-width:     0;
-$button-font-color:       #fff;
-$button-font-size:        20px;
-$button-padding-x:        14px;
-$button-padding-y:        10px;
+$button-border-width: 0;
+$button-font-color:   #fff;
+$button-font-size:    1em;
+$button-padding-x:    14px;
+$button-padding-y:    10px;

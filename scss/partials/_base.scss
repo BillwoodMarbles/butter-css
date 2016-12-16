@@ -15,7 +15,14 @@ body {
   font-size: $root-font-size;
 }
 
-// buttons
+// Lists
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+// Buttons
 button {
   cursor: pointer;
 }
