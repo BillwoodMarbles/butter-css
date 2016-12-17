@@ -477,6 +477,31 @@ button {
     content: " ";
     clear: both;
     height: 0; }
+  .bc-header.bc-center {
+    text-align: center; }
+    .bc-header.bc-center .bc-logo {
+      display: block;
+      float: none; }
+    .bc-header.bc-center .bc-nav {
+      float: none;
+      width: 100%; }
+      .bc-header.bc-center .bc-nav ul {
+        float: none; }
+        .bc-header.bc-center .bc-nav ul li {
+          float: none; }
+  .bc-header.bc-sidebar {
+    border-right: 1px solid #C3C3C3;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 225px; }
+    .bc-header.bc-sidebar ~ .bc-nav, .bc-header.bc-sidebar ~ .bc-body, .bc-header.bc-sidebar ~ .bc-footer {
+      padding-left: 225px; }
+    .bc-header.bc-sidebar .bc-nav ul {
+      width: 100%; }
+      .bc-header.bc-sidebar .bc-nav ul li {
+        width: 100%; }
 
 .bc-logo {
   color: #93532d;
@@ -500,32 +525,6 @@ button {
     transition: color 0.5s ease; }
     .bc-logo a:hover {
       color: #523726; }
-
-.bc-header.bc-center {
-  text-align: center; }
-  .bc-header.bc-center .bc-logo {
-    display: block;
-    float: none; }
-  .bc-header.bc-center .bc-nav {
-    float: none;
-    width: 100%; }
-    .bc-header.bc-center .bc-nav ul {
-      float: none; }
-      .bc-header.bc-center .bc-nav ul li {
-        float: none; }
-.bc-header.bc-sidebar {
-  border-right: 1px solid #C3C3C3;
-  height: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 200px; }
-  .bc-header.bc-sidebar ~ .bc-nav, .bc-header.bc-sidebar ~ .bc-body, .bc-header.bc-sidebar ~ .bc-footer {
-    padding-left: 200px; }
-  .bc-header.bc-sidebar .bc-nav ul {
-    width: 100%; }
-    .bc-header.bc-sidebar .bc-nav ul li {
-      width: 100%; }
 
 .bc-nav {
   background-color: #FCFCFC;
@@ -557,19 +556,18 @@ button {
         .bc-nav > ul > li a:hover {
           box-shadow: inset 0 -5px 0 0 #93532d;
           color: #333333; }
+  .bc-nav.bc-center {
+    float: none;
+    text-align: center;
+    width: 100%; }
+    .bc-nav.bc-center ul {
+      float: none; }
+      .bc-nav.bc-center ul li {
+        float: none; }
 
 .bc-header .bc-nav {
   border-bottom: none;
   float: right;
   width: auto; }
-
-.bc-nav.bc-center {
-  float: none;
-  text-align: center;
-  width: 100%; }
-  .bc-nav.bc-center ul {
-    float: none; }
-    .bc-nav.bc-center ul li {
-      float: none; }
 
 /*# sourceMappingURL=butter.css.map */

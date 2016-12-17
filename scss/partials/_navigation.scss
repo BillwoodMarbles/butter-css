@@ -1,4 +1,4 @@
-// Navigation
+// Nav
 .bc-nav {
   background-color: $main-nav-bg-color;
   border-bottom: 1px solid $grey-lighter;
@@ -35,21 +35,8 @@
       }
     }
   }
-}
 
-// Family
-
-// Parents
-.bc-header {
-  .bc-nav {
-    border-bottom: none;
-    float: right;
-    width: auto;
-  }
-}
-
-// Center
-.bc-nav {
+  // Friend: Center
   &.bc-center {
     float: none;
     text-align: center;
@@ -60,5 +47,14 @@
         float: none;
       }
     }
+  }
+}
+
+// Parent: Header
+.bc-header {
+  .bc-nav {
+    border-bottom: none;
+    float: right;
+    width: auto;
   }
 }

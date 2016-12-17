@@ -1,0 +1,27 @@
+// Logo
+.bc-logo {
+  color: $logo-color;
+  display: inline-block;
+  float: left;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: $header-height;
+  padding-bottom: $logo-padding-y;
+  padding-left: $logo-padding-x;
+  padding-right: $logo-padding-x;
+  padding-top: $logo-padding-y;
+  transition: color 0.5s ease;
+  &:hover {
+    color: $logo-color-hover;
+  }
+  a {
+    color: $logo-color;
+    display: inline-block;
+    line-height: $header-height;
+    text-decoration: none;
+    transition: color 0.5s ease;
+    &:hover {
+      color: $logo-color-hover;
+    }
+  }
+}
