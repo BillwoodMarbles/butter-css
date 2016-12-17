@@ -13,6 +13,7 @@
   }
 }
 
+// Logo
 .bc-logo {
   color: $logo-color;
   display: inline-block;
@@ -36,6 +37,53 @@
     transition: color 0.5s ease;
     &:hover {
       color: $logo-color-hover;
+    }
+  }
+}
+
+// Header Friends
+.bc-header {
+  // Center
+  &.bc-center {
+    text-align: center;
+    .bc-logo  {
+      display: block;
+      float: none;
+    }
+    .bc-nav {
+      float: none;
+      width: 100%;
+      ul {
+        float: none;
+        li {
+          float: none;
+        }
+      }
+    }
+  }
+
+  // Sidebar
+  &.bc-sidebar {
+    border-right: 1px solid $header-border-color;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: $header-width;
+
+    & ~ .bc-nav,
+    & ~ .bc-body,
+    & ~ .bc-footer {
+      padding-left: $header-width;
+    }
+
+    .bc-nav {
+      ul {
+        width: 100%;
+        li {
+          width: 100%;
+        }
+      }
     }
   }
 }

@@ -47,3 +47,18 @@
     width: auto;
   }
 }
+
+// Center
+.bc-nav {
+  &.bc-center {
+    float: none;
+    text-align: center;
+    width: 100%;
+    ul {
+      float: none;
+      li {
+        float: none;
+      }
+    }
+  }
+}

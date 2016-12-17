@@ -1,6 +1,8 @@
 // Base
 html {
   box-sizing: border-box;
+  height: 100%;
+  width: 100%;
 }
 
 *,
@@ -13,6 +15,8 @@ html {
 
 body {
   font-size: $root-font-size;
+  height: 100%;
+  width: 100%;
 }
 
 // Lists

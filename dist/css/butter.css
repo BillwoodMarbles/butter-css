@@ -403,7 +403,9 @@ template {
   display: none; }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%; }
 
 *,
 *:focus,
@@ -413,7 +415,9 @@ html {
   outline: none; }
 
 body {
-  font-size: 16px; }
+  font-size: 16px;
+  height: 100%;
+  width: 100%; }
 
 ul,
 ol {
@@ -499,6 +503,32 @@ button {
     .bc-logo a:hover {
       color: #523726; }
 
+.bc-header.bc-center {
+  text-align: center; }
+  .bc-header.bc-center .bc-logo {
+    display: block;
+    float: none; }
+  .bc-header.bc-center .bc-nav {
+    float: none;
+    width: 100%; }
+    .bc-header.bc-center .bc-nav ul {
+      float: none; }
+      .bc-header.bc-center .bc-nav ul li {
+        float: none; }
+.bc-header.bc-sidebar {
+  border-right: 1px solid #C3C3C3;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; }
+  .bc-header.bc-sidebar ~ .bc-nav, .bc-header.bc-sidebar ~ .bc-body, .bc-header.bc-sidebar ~ .bc-footer {
+    padding-left: 200px; }
+  .bc-header.bc-sidebar .bc-nav ul {
+    width: 100%; }
+    .bc-header.bc-sidebar .bc-nav ul li {
+      width: 100%; }
+
 .bc-nav {
   background-color: #FCFCFC;
   border-bottom: 1px solid #E1E1E1;
@@ -534,5 +564,14 @@ button {
   border-bottom: none;
   float: right;
   width: auto; }
+
+.bc-nav.bc-center {
+  float: none;
+  text-align: center;
+  width: 100%; }
+  .bc-nav.bc-center ul {
+    float: none; }
+    .bc-nav.bc-center ul li {
+      float: none; }
 
 /*# sourceMappingURL=butter.css.map */
