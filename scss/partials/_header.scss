@@ -1,7 +1,7 @@
 // Header
 .bc-header {
   background-color: $header-bg-color;
-  border-bottom: 1px solid $header-border-color;
+  border-bottom: $header-border-weight solid $header-border-color;
   min-height: $header-height;
   &:after {
     visibility: hidden;
@@ -64,19 +64,17 @@
 
   // Sidebar
   &.bc-sidebar {
-    border-right: 1px solid $header-border-color;
+    border-right: $header-border-weight solid $header-border-color;
     height: 100%;
     position: fixed;
     left: 0;
     top: 0;
     width: $header-width;
-
     & ~ .bc-nav,
     & ~ .bc-body,
     & ~ .bc-footer {
       padding-left: $header-width;
     }
-
     .bc-nav {
       ul {
         width: 100%;

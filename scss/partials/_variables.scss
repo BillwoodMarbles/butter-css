@@ -26,10 +26,11 @@ $brand-color-secondary-2: #7fbd8e;
 $brand-color-warning:     #8f2321;
 
 // Header
-$header-bg-color:     $grey-lightest;
-$header-border-color: $grey-light;
-$header-height:       75px;
-$header-width:        200px;
+$header-bg-color:      $grey-lightest;
+$header-border-color:  $grey-light;
+$header-border-weight: 1px;
+$header-height:        75px;
+$header-width:         200px;
 
 // Logo
 $logo-color:       $brand-color-primary-2;
@@ -50,6 +51,7 @@ $main-nav-link-padding-x:        15px;
 $main-nav-link-padding-y:        0;
 
 // Containers
+$container-gutter: 15px;
 
 // Buttons
 $button-default-bg-color:         $grey;
