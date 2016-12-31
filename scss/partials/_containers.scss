@@ -1,0 +1,21 @@
+// Containers
+.bc-body {
+  overflow: auto;
+  position: relative;
+}
+
+.bc-section {
+  border-bottom: 1px solid $grey-lighter;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  &:last-of-type {
+    border-color: transparent;
+  }
+}
+
+.bc-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-left: $container-gutter;
+  padding-right: $container-gutter;
+}

@@ -1,6 +1,8 @@
 // Base
 html {
   box-sizing: border-box;
+  height: 100%;
+  width: 100%;
 }
 
 *,
@@ -13,9 +15,18 @@ html {
 
 body {
   font-size: $root-font-size;
+  height: 100%;
+  width: 100%;
 }
 
-// buttons
+// Lists
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+// Buttons
 button {
   cursor: pointer;
 }
