@@ -436,32 +436,50 @@ button {
   padding-right: 14px;
   padding-top: 10px;
   transition: all 0.5s ease; }
+  .bc-button.active {
+    background-color: #64ad9c; }
   .bc-button.bc-primary {
     background-color: #93532d;
     color: #fff; }
     .bc-button.bc-primary:hover, .bc-button.bc-primary:focus {
-      background-color: #bf9660;
+      background-color: #93532d;
       color: #fff; }
   .bc-button.bc-secondary {
     background-color: #64ad9c;
     color: #fff; }
     .bc-button.bc-secondary:hover, .bc-button.bc-secondary:focus {
-      background-color: #7fbd8e;
+      background-color: #64ad9c;
       color: #fff; }
   .bc-button.bc-warning {
     background-color: #8f2321;
     color: #fff; }
 
+.bc-code {
+  background-color: #505050;
+  border: 3px solid #C3C3C3;
+  border-radius: 10px;
+  color: #fff;
+  padding: 15px; }
+
+.bc-body {
+  overflow: auto;
+  position: relative; }
+
 .bc-section {
   border-bottom: 1px solid #E1E1E1;
   padding-bottom: 30px;
   padding-top: 30px; }
+  .bc-section:last-of-type {
+    border-color: transparent; }
 
 .bc-container {
+  margin: 0 auto;
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px; }
 
 .bc-footer {
+  border-top: 1px solid #E1E1E1;
   padding-bottom: 30px;
   padding-top: 30px;
   text-align: center; }
@@ -469,7 +487,12 @@ button {
 .bc-header {
   background-color: #FCFCFC;
   border-bottom: 1px solid #C3C3C3;
-  min-height: 75px; }
+  min-height: 75px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  width: 100%; }
   .bc-header:after {
     visibility: hidden;
     display: block;
@@ -503,6 +526,18 @@ button {
       .bc-header.bc-sidebar .bc-nav ul li {
         width: 100%; }
 
+.bc-hero {
+  background-color: #523726;
+  color: #fff;
+  padding: 2.5em 0; }
+  .bc-hero h1,
+  .bc-hero h2,
+  .bc-hero h3,
+  .bc-hero h4,
+  .bc-hero h5,
+  .bc-hero h6 {
+    margin: 0; }
+
 .bc-logo {
   color: #93532d;
   display: inline-block;
@@ -526,36 +561,36 @@ button {
     .bc-logo a:hover {
       color: #523726; }
 
+.bc-nav-ul, .bc-nav > ul {
+  display: inline-block;
+  float: left;
+  list-style: none; }
+  .bc-nav-ul > li, .bc-nav > ul > li {
+    display: inline-block;
+    float: left;
+    line-height: 75px; }
+    .bc-nav-ul > li a, .bc-nav > ul > li a {
+      background-color: #FCFCFC;
+      box-shadow: inset 0 0 0 0 #93532d;
+      color: #333333;
+      display: block;
+      line-height: 75px;
+      font-size: 1em;
+      padding-bottom: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 0;
+      text-decoration: none;
+      transition: all 0.5s ease; }
+      .bc-nav-ul > li a:hover, .bc-nav > ul > li a:hover {
+        box-shadow: inset 0 -5px 0 0 #93532d;
+        color: #333333; }
+
 .bc-nav {
   background-color: #FCFCFC;
   border-bottom: 1px solid #E1E1E1;
   display: inline-block;
   width: 100%; }
-  .bc-nav > ul {
-    display: inline-block;
-    float: left;
-    list-style: none; }
-    .bc-nav > ul > li {
-      display: inline-block;
-      float: left;
-      height: 75px;
-      line-height: 75px; }
-      .bc-nav > ul > li a {
-        background-color: #FCFCFC;
-        box-shadow: inset 0 0 0 0 #93532d;
-        color: #333333;
-        display: block;
-        line-height: 75px;
-        font-size: 1em;
-        padding-bottom: 0;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 0;
-        text-decoration: none;
-        transition: all 0.5s ease; }
-        .bc-nav > ul > li a:hover {
-          box-shadow: inset 0 -5px 0 0 #93532d;
-          color: #333333; }
   .bc-nav.bc-center {
     float: none;
     text-align: center;
@@ -569,5 +604,24 @@ button {
   border-bottom: none;
   float: right;
   width: auto; }
+
+.bc-sidebar {
+  background-color: #FCFCFC;
+  border-left: 1px solid #C3C3C3;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 225px;
+  z-index: 1; }
+  .bc-sidebar ~ .bc-section, .bc-sidebar ~ .bc-container {
+    padding-right: 225px; }
+
+.bc-thumbnail {
+  border: 2px solid #C3C3C3;
+  border-radius: 1em;
+  display: inline-block;
+  padding: 15px;
+  position: relative; }
 
 /*# sourceMappingURL=butter.css.map */

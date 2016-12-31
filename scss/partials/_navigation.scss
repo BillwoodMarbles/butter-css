@@ -1,41 +1,43 @@
 // Nav
+.bc-nav-ul {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  > li {
+    display: inline-block;
+    float: left;
+    line-height: $main-nav-link-height;
+    a {
+      background-color: $main-nav-link-bg-color;
+      box-shadow: inset 0 0 0 0 $main-nav-link-bg-color-hover;
+      color: $main-nav-link-font-color;
+      display: block;
+      line-height: $main-nav-link-height;
+      font-size: $main-nav-link-font-size;
+      padding-bottom: $main-nav-link-padding-y;
+      padding-left: $main-nav-link-padding-x;
+      padding-right: $main-nav-link-padding-x;
+      padding-top: $main-nav-link-padding-y;
+      text-decoration: none;
+      transition: all 0.5s ease;
+      &:hover {
+        //background-color: $main-nav-link-bg-hover-color;
+        box-shadow: inset 0 -5px 0 0 $main-nav-link-bg-color-hover;
+        color: $main-nav-link-font-color-hover;
+      }
+
+    }
+  }
+}
+
 .bc-nav {
   background-color: $main-nav-bg-color;
   border-bottom: 1px solid $grey-lighter;
   display: inline-block;
   width: 100%;
   > ul {
-    display: inline-block;
-    float: left;
-    list-style: none;
-    > li {
-      display: inline-block;
-      float: left;
-      height: $main-nav-height;
-      line-height: $main-nav-height;
-      a {
-        background-color: $main-nav-link-bg-color;
-        box-shadow: inset 0 0 0 0 $main-nav-link-bg-color-hover;
-        color: $main-nav-link-font-color;
-        display: block;
-        line-height: $main-nav-height;
-        font-size: $main-nav-link-font-size;
-        padding-bottom: $main-nav-link-padding-y;
-        padding-left: $main-nav-link-padding-x;
-        padding-right: $main-nav-link-padding-x;
-        padding-top: $main-nav-link-padding-y;
-        text-decoration: none;
-        transition: all 0.5s ease;
-        &:hover {
-          //background-color: $main-nav-link-bg-hover-color;
-          box-shadow: inset 0 -5px 0 0 $main-nav-link-bg-color-hover;
-          color: $main-nav-link-font-color-hover;
-        }
-
-      }
-    }
+    @extend .bc-nav-ul;
   }
-
   // Friend: Center
   &.bc-center {
     float: none;

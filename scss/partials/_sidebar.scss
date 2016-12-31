@@ -1,0 +1,15 @@
+// Sidebar
+.bc-sidebar {
+  background-color: $header-bg-color;
+  border-left: $header-border-weight solid $header-border-color;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: $header-width;
+  z-index: 1;
+  & ~ .bc-section,
+  & ~ .bc-container {
+    padding-right: $header-width;
+  }
+}

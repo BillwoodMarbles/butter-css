@@ -3,6 +3,11 @@
   background-color: $header-bg-color;
   border-bottom: $header-border-weight solid $header-border-color;
   min-height: $header-height;
+  padding-bottom: $header-padding-y;
+  padding-left: $header-padding-x;
+  padding-right: $header-padding-x;
+  padding-top: $header-padding-y;
+  width: 100%;
   &:after {
     visibility: hidden;
     display: block;

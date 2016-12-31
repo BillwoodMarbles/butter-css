@@ -8,6 +8,12 @@
   padding-right: $button-padding-x;
   padding-top: $button-padding-y;
   transition: all 0.5s ease;
+
+  &.active {
+    background-color: $brand-color-secondary-1;
+  }
+
+  // Helpers
   &.bc-primary {
     background-color: $button-primary-bg-color;
     color: $button-font-color;

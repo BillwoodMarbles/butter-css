@@ -29,6 +29,8 @@ $brand-color-warning:     #8f2321;
 $header-bg-color:      $grey-lightest;
 $header-border-color:  $grey-light;
 $header-border-weight: 1px;
+$header-padding-x:     0;
+$header-padding-y:     0;
 $header-height:        75px;
 $header-width:         225px;
 
@@ -47,6 +49,7 @@ $main-nav-link-bg-color-hover:   $brand-color-primary-2;
 $main-nav-link-font-color:       $grey-darker;
 $main-nav-link-font-color-hover: $grey-darker;
 $main-nav-link-font-size:        1em;
+$main-nav-link-height:           $header-height;
 $main-nav-link-padding-x:        15px;
 $main-nav-link-padding-y:        0;
 
@@ -56,9 +59,9 @@ $container-gutter: 15px;
 // Buttons
 $button-default-bg-color:         $grey;
 $button-primary-bg-color:         $brand-color-primary-2;
-$button-primary-bg-color-hover:   $brand-color-primary-3;
+$button-primary-bg-color-hover:   $brand-color-primary-2;
 $button-secondary-bg-color:       $brand-color-secondary-1;
-$button-secondary-bg-color-hover: $brand-color-secondary-2;
+$button-secondary-bg-color-hover: $brand-color-secondary-1;
 $button-warning-bg-color:         $brand-color-warning;
 
 $button-border-width: 0;
